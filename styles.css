@@ -1,6 +1,9 @@
 .container {
-	width: 0 auto;
-	position: relative;
+	margin: 0 auto;
+	width: 50%;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 700;
+	text-decoration: bold;
 }
 
 .row {
@@ -8,20 +11,31 @@
 	display: block;
 }
 
-.btn {
-	border: 1px solid black;
+[class^="num"], [class^="calc"], .spacer {
+	font-family: 'Orbitron', sans-serif;
+	border: 1px solid #728ca6;
 	display: inline-block;
-	width: 30%;
-	height: 10%;
+	width: 70px;
+	height: 70px;
 	text-align: center;
 	border-radius: 50%;
+	line-height: 70px;
+	background-color: #2a4d6e;
+	color: #728ca6;
 }
 
-.func {
-	width: 18%;
-	border: 1px solid black;
+
+
+
+
+#result{
+   	font-family: 'Orbitron', sans-serif;
 	display: inline-block;
-	height: 10%;
-	text-align: center;
-	border-radius: 50%;
+	width: 290px;
+	height: 70px;
+	text-align: right;
+	
+	line-height: 70px;
+	
+	color: black;
 }
