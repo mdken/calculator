@@ -1,0 +1,27 @@
+.container {
+	width: 0 auto;
+	position: relative;
+}
+
+.row {
+	width: 100%;
+	display: block;
+}
+
+.btn {
+	border: 1px solid black;
+	display: inline-block;
+	width: 30%;
+	height: 10%;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.func {
+	width: 18%;
+	border: 1px solid black;
+	display: inline-block;
+	height: 10%;
+	text-align: center;
+	border-radius: 50%;
+}
